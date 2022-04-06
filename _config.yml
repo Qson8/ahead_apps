@@ -45,10 +45,6 @@ features                                  :
     description                           : 随时随地查看、收发通知、信件，任务等信息，查看个部门、分院工作简报，了解校园师生情况。
     fontawesome_icon_name                 : mobile
 
-  - title                                 : 丰富的功能服务
-    description                           : 提供研发针对校园的校务服务功能，全方位的聚焦校园线上业务，完善电子信息化功能和提升业务效率。
-    fontawesome_icon_name                 : play-circle
-
   - title                                 : 党建工作
     description                           : 提供党建动态、党建学习、党内法规、党员查询、党费线上支付服务及入党申请流程管理等。
     fontawesome_icon_name                 : sync
@@ -73,6 +69,10 @@ features                                  :
   - title                                 : 招生管理
     description                           : 接入招生管理系统中如招生数据中心，新生报道详细情况等。
     fontawesome_icon_name                 : info-circle
+
+  - title                                 : 更多功能服务
+    description                           : 提供研发针对校园的校务服务功能，全方位的聚焦校园线上业务，完善电子信息化功能和提升业务效率。
+    fontawesome_icon_name                 : play-circle
 
   - title                                 : # New Feature Title
     description                           : # New Feature Description
