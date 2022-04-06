@@ -6,9 +6,14 @@
 
 $(function() {
 
-    var apiURL = "http://itunes.apple.com/lookup?id={{ site.ios_app_id }}&country={{ site.ios_app_country }}&callback=1";
+    // var apiURL = "https://itunes.apple.com/lookup?id={{ site.ios_app_id }}&country={{ site.ios_app_country }}&callback=?";
+    var apiURL = "https://itunes.apple.com/cn/lookup?id={{ site.ios_app_id }}";
+    $.post(apiURL,function(json){
 
-    $.getJSON(apiURL, function(json) {
+    // });
+
+
+    // $.getJSON(apiURL, function(json) {
 
         if (json.results && json.results.length) {
 
