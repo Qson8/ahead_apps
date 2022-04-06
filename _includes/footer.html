@@ -1,9 +1,8 @@
 <footer>
-	
-	<br>
-	<br>
-	<br>
-	<br>
+	{% if site.your_name %}
+	<p class="footerText">{% if site.your_link %}<a href="{{ site.your_link }}">{% endif %}{{ site.your_name }}{% if
+			site.your_link %}</a>{% endif %}{% if site.your_city %} in {{ site.your_city }}{% endif %}</p>
+	{% endif %}
 
 	<div class="footerLinks">
 		{% for page in site.pages %}
@@ -16,14 +15,15 @@
 
 	<br>
 
-	AHEAD智慧校园管理平台
-	先锋软件股份有限公司 版权所有
-	<!-- {% if site.your_name %}
-	<p class="footerText">{% if site.your_link %}<a href="{{ site.your_link }}">{% endif %}{{ site.your_name }}{% if
-			site.your_link %}</a>{% endif %}{% if site.your_city %} in {{ site.your_city }}{% endif %}</p>
-	{% endif %}
-	{% if site.your_copyright %}
+	<!-- <div class="footerLinks"> -->
+		<!-- {% if site.your_name %}
+		<div class="footerText">{% if site.your_link %}<a href="{{ site.your_link }}">{% endif %}{{ site.your_name }}{%
+				if site.your_link %}</a>{% endif %}</div>
+		{% endif %}
+
+		{% if site.your_copyright %}
 		<div class="footerText">{% if site.your_link_copyright %}<a href="{{ site.your_link_copyright }}">{% endif %}{{ site.your_copyright }}{%
 				if site.your_link_copyright %}</a>{% endif %}  版权所有</div>
 		{% endif %} -->
+	<!-- </div> -->
 </footer>
