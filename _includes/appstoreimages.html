@@ -9,12 +9,12 @@ $(function() {
     // var apiURL = "https://itunes.apple.com/lookup?id={{ site.ios_app_id }}&country={{ site.ios_app_country }}&callback=?";
     // 技术支持文档https://sleepingbug.blog.csdn.net/article/details/24369997?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2.pc_relevant_default&utm_relevant_index=5
     var apiURL = "https://itunes.apple.com/cn/lookup?id={{ site.ios_app_id }}";
-    $.post(apiURL,function(json){
+    // $.post(apiURL,function(json){
 
     // });
 
 
-    // $.getJSON(apiURL, function(json) {
+    $.getJSON(apiURL, function(json) {
 
         if (json.results && json.results.length) {
 
