@@ -35,39 +35,39 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
+  - title                                 : 学校新闻资讯
+    description                           : 及时更新学校及更分院新闻资讯，聚焦校园媒体图文、视频信息，第一时间了解校园动态。
     fontawesome_icon_name                 : magic
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
+  - title                                 : 移动版OA系统
+    description                           : 随时随地查看、收发通知、信件，任务等信息，查看个部门、分院工作简报，了解校园师生情况。
     fontawesome_icon_name                 : mobile
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
+  - title                                 : 丰富的功能服务
+    description                           : 不断研发针对校园的校务服务功能，360度全方位的聚焦校园线上业务，完善电子信息化功能和提升业务效率。
     fontawesome_icon_name                 : play-circle
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
+  - title                                 : 云上党建系统
+    description                           : 党建系统进去全面信息化，提供查看党建动态、党内法规、公示、党内数据统计服务；支持App内进行党建学习、党员查询、党建活动组织以及党费线上支付等；支持从申请入党到转正线上跟踪管理。
     fontawesome_icon_name                 : sync
 
-  - title                                 : Easy to Tweak
+  - title                                 : 教务管理
     description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
     fontawesome_icon_name                 : adjust
   
-  - title                                 : Feature List
+  - title                                 : 校园服务
     description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
     fontawesome_icon_name                 : star
 
-  - title                                 : Smart App Banner
+  - title                                 : 财务管理
     description                           : Display a smart app banner on iOS devices.
     fontawesome_icon_name                 : arrow-alt-circle-down
 
-  - title                                 : Social Links
+  - title                                 : 人事考勤管理
     description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
     fontawesome_icon_name                 : link
 
-  - title                                 : FontAwesome Support
+  - title                                 : 招生管理
     description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
     fontawesome_icon_name                 : info-circle
 
