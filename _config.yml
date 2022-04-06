@@ -48,7 +48,7 @@ features                                  :
     fontawesome_icon_name                 : play-circle
 
   - title                                 : 云上党建系统
-    description                           : 提供查看党建动态、党内法规等服务；支持App内进行党建学习、、党费线上支付及入党申请流程管理等。
+    description                           : 提供党建动态、党建学习、党内法规、党员查询、党费线上支付服务及入党申请流程管理等。
     fontawesome_icon_name                 : sync
 
   - title                                 : 教务管理
