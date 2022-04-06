@@ -58,6 +58,7 @@ features                                  :
   
   - title                                 : 校园服务
     description                           : 提供校园内报修查询、维修处理、统计、分析；学生电费管理、投诉管理、用餐管理、门锁管理等。
+    fontawesome_icon_name                 : star
 
   - title                                 : 财务管理
     description                           : 查看学校各分院学生欠费缴费情况，分院、班级、个人各级收费情况。
