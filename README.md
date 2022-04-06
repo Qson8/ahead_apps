@@ -11,7 +11,7 @@ Designed for GitHub Pages for super easy set up.
 
 🎨 Customise site in `_config.yml` (no HTML/CSS)
 
-📝 Write Privacy Policy as markdown in `privacypolicy.md`
+📝 Write Privacy Policy as markdown in `privacypolicy_cn.md`
 
 🕒 Keep a changelog in `CHANGELOG.md`
 
