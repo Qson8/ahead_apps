@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 关于App
+title: 版本记录
 include_in_header: true
 ---
 
