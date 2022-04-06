@@ -53,6 +53,8 @@ features                                  :
 
   - title                                 : 教务管理
     description                           : 面向教师职工提供对班级情况的查询、管理、分析统计，学生成绩查询、图书馆等相关服务。
+    fontawesome_icon_name                 : adjust
+
   
   - title                                 : 校园服务
     description                           : 提供校园内报修查询、维修处理、统计、分析；学生电费管理、投诉管理、用餐管理、门锁管理等。
