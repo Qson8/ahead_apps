@@ -15,7 +15,12 @@ $(function() {
     // $.getJSON(apiURL, function(json) {
         var obj = JSON.parse(json);
         var results = obj.results;
-        var appInfo = results[0];
+
+        if(results && Array.isArray(results) && results.length) {
+            var appInfo = results[0];
+        }
+
+        
         
         
         // if (results && results.length) {
