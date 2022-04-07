@@ -14,12 +14,14 @@ $(function() {
     // });
 
     // $.getJSON(apiURL, function(json) {
-
-        if (json.results && json.results.length) {
-
+        alert(appInfo);
+        var obj = JSON.parse(json);
+        var results = obj.results;
+        if (results && results.length) {
+        
             alert(appInfo);
             console.info("Image strings loaded from Apple API.");
-            var appInfo = json.results['results'][0];
+            var appInfo = results['results'][0];
             // alert(appInfo);
 
             // Set favicon
