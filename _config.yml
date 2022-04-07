@@ -39,7 +39,7 @@ features                                  :
 
   - title                                 : 学校新闻资讯
     description                           : 及时更新学校及更分院新闻资讯，聚焦校园媒体图文、视频信息，第一时间了解校园动态。
-    fontawesome_icon_name                 : fa-newspaper-o
+    fontawesome_icon_name                 : fa-hacker-news
     
   - title                                 : 移动版OA系统
     description                           : 随时随地查看、收发通知、信件，任务等信息，查看个部门、分院工作简报，了解校园师生情况。
