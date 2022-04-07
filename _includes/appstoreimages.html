@@ -13,14 +13,13 @@ $(function() {
         
     // });
     // $.getJSON(apiURL, function(json) {
-        alert(appInfo);
         var obj = JSON.parse(json);
         var results = obj.results;
         if (results && results.length) {
         
             alert(appInfo);
             console.info("Image strings loaded from Apple API.");
-            var appInfo = results['results'][0];
+            var appInfo = results[0];
             // alert(appInfo);
 
             // Set favicon
