@@ -4,74 +4,75 @@
 
 <script>
 
-$(function() {
+// $(function() {
 
-    // var apiURL = "https://itunes.apple.com/lookup?id={{ site.ios_app_id }}&country={{ site.ios_app_country }}&callback=?";
-    // 技术支持文档https://sleepingbug.blog.csdn.net/article/details/24369997?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2.pc_relevant_default&utm_relevant_index=5
-    var apiURL = "https://itunes.apple.com/cn/lookup?id={{ site.ios_app_id }}";
-    $.post(apiURL,function(json){
+
+//     // var apiURL = "https://itunes.apple.com/lookup?id={{ site.ios_app_id }}&country={{ site.ios_app_country }}&callback=?";
+//     // 技术支持文档https://sleepingbug.blog.csdn.net/article/details/24369997?spm=1001.2101.3001.6650.2&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-2.pc_relevant_default&utm_relevant_index=5
+//     var apiURL = "https://itunes.apple.com/cn/lookup?id={{ site.ios_app_id }}";
+//     $.post(apiURL,function(json){
         
-    // });
-    // $.getJSON(apiURL, function(json) {
-        var obj = JSON.parse(json);
-        var results = obj.results;
+//     // });
+//     // $.getJSON(apiURL, function(json) {
+//         var obj = JSON.parse(json);
+//         var results = obj.results;
 
-        // 将app商店信息配置，_config.yml没设置的会填充
-        if(results && Array.isArray(results) && results.length) {
-            var appInfo = results[0];
+//         // 将app商店信息配置，_config.yml没设置的会填充
+//         if(results && Array.isArray(results) && results.length) {
+//             var appInfo = results[0];
 
-            console.info("Image strings loaded from Apple API.");
+//             console.info("Image strings loaded from Apple API.");
 
-            // Set favicon
-            $('link[rel="shortcut icon"]').attr("href", appInfo.artworkUrl512);
+//             // Set favicon
+//             $('link[rel="shortcut icon"]').attr("href", appInfo.artworkUrl512);
 
-            // Set page title using the iOS app ID if it is not set manually in _config.yml
-            var $pageTitle = $(".pageTitle");
-            if ($.trim($($pageTitle).text()).length == 0) {
-                $($pageTitle).html(appInfo.trackName);
-            }
+//             // Set page title using the iOS app ID if it is not set manually in _config.yml
+//             var $pageTitle = $(".pageTitle");
+//             if ($.trim($($pageTitle).text()).length == 0) {
+//                 $($pageTitle).html(appInfo.trackName);
+//             }
 
-            // Set large app icon using the iOS app ID if it is not set manually in _config.yml
-            var $appIconLarge = $(".appIconLarge");
-            if (!$appIconLarge.attr('src')) {
-                $($appIconLarge).attr("src", appInfo.artworkUrl512);
-            }
+//             // Set large app icon using the iOS app ID if it is not set manually in _config.yml
+//             var $appIconLarge = $(".appIconLarge");
+//             if (!$appIconLarge.attr('src')) {
+//                 $($appIconLarge).attr("src", appInfo.artworkUrl512);
+//             }
 
-            // Set header app icon using the iOS app ID if it is not set manually in _config.yml
-            var $appIconHeader = $(".headerIcon");
-            if (!$appIconHeader.attr('src')) {
-                $($appIconHeader).attr("src", appInfo.artworkUrl512);
-            }
+//             // Set header app icon using the iOS app ID if it is not set manually in _config.yml
+//             var $appIconHeader = $(".headerIcon");
+//             if (!$appIconHeader.attr('src')) {
+//                 $($appIconHeader).attr("src", appInfo.artworkUrl512);
+//             }
 
-            // Set app name using the iOS app ID if it is not set manually in _config.yml
-            var $appName = $(".appName");
-            if ($.trim($($appName).text()).length == 0) {
-                $($appName).html(appInfo.trackName);
-            }
+//             // Set app name using the iOS app ID if it is not set manually in _config.yml
+//             var $appName = $(".appName");
+//             if ($.trim($($appName).text()).length == 0) {
+//                 $($appName).html(appInfo.trackName);
+//             }
 
-            // Set the name displayed in the header if it is not set manually in _config.yml
-            var $headerName = $(".headerName");
-            if ($.trim($($headerName).text()).length == 0) {
-                $($headerName).html(appInfo.trackName);
-            }
+//             // Set the name displayed in the header if it is not set manually in _config.yml
+//             var $headerName = $(".headerName");
+//             if ($.trim($($headerName).text()).length == 0) {
+//                 $($headerName).html(appInfo.trackName);
+//             }
 
-            // Set price using the iOS app ID if it is not set manually in _config.yml
-            var $appPrice = $(".appPrice");
-            if ($.trim($($appPrice).text()).length == 0) {
-                $($appPrice).html(appInfo.formattedPrice);
-            }
+//             // Set price using the iOS app ID if it is not set manually in _config.yml
+//             var $appPrice = $(".appPrice");
+//             if ($.trim($($appPrice).text()).length == 0) {
+//                 $($appPrice).html(appInfo.formattedPrice);
+//             }
 
-            // Set App Store link using the iOS app ID if it is not set manually in _config.yml
-            var $appStoreLink = $(".appStoreLink");
-            if ($.trim($appStoreLink.attr('href')).length == 0) {
-                $($appStoreLink).attr("href", appInfo.trackViewUrl);
-            }
+//             // Set App Store link using the iOS app ID if it is not set manually in _config.yml
+//             var $appStoreLink = $(".appStoreLink");
+//             if ($.trim($appStoreLink.attr('href')).length == 0) {
+//                 $($appStoreLink).attr("href", appInfo.trackViewUrl);
+//             }
 
-            console.info(appInfo);
+//             console.info(appInfo);
 
-        }
-    });  
-});
+//         }
+//     });  
+// });
 
 </script>
 
