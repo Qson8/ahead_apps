@@ -35,6 +35,7 @@ youtube_username                          :
 
 
 # Feature List                            Edit, add or remove features to be presented.
+# fontawesome_icon_name : https://fa5.dashgame.com/#/%E5%9B%BE%E6%A0%87
 features                                  :
 
   - title                                 : 学校新闻资讯
@@ -43,7 +44,7 @@ features                                  :
     
   - title                                 : 移动版OA系统
     description                           : 随时随地查看、收发通知、信件，任务等信息，查看个部门、分院工作简报，了解校园师生情况。
-    fontawesome_icon_name                 : mobile
+    fontawesome_icon_name                 : envelope-open-text
 
   - title                                 : 党建工作
     description                           : 提供党建动态、党建学习、党内法规、党员查询、党费线上支付服务及入党申请流程管理等。
@@ -51,12 +52,12 @@ features                                  :
 
   - title                                 : 教务管理
     description                           : 面向教师职工提供对班级情况的查询、管理、分析统计，学生成绩查询、图书馆等相关服务。
-    fontawesome_icon_name                 : adjust
+    fontawesome_icon_name                 : users
 
   
   - title                                 : 校园服务
     description                           : 提供校园内报修查询、维修处理、统计、分析；学生电费管理、投诉管理、用餐管理、门锁管理等。
-    fontawesome_icon_name                 : star
+    fontawesome_icon_name                 : user-graduate
 
   - title                                 : 财务管理
     description                           : 查看学校各分院学生欠费缴费情况，分院、班级、个人各级收费情况。
@@ -64,7 +65,7 @@ features                                  :
 
   - title                                 : 人事考勤
     description                           : 考勤管理，请假申请、审批及查询，人员信息修改、查询全校、各分院员工数据分析等。
-    fontawesome_icon_name                 : link
+    fontawesome_icon_name                 : calendar-check
 
   - title                                 : 招生管理
     description                           : 接入招生管理系统中如招生数据中心，新生报道详细情况等。
