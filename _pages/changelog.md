@@ -1,7 +1,8 @@
 ---
 layout: page
 title: 版本记录
-include_in_header: true
+include_in_header: false
+hidden : true
 ---
 
 # 变更日志
