@@ -17,9 +17,10 @@ $(function() {
 
         if (json.results && json.results.length) {
 
+            console.info(appInfo);
             console.info("Image strings loaded from Apple API.");
             var appInfo = json.results['results'][0];
-            alert(appInfo);
+            // alert(appInfo);
 
             // Set favicon
             $('link[rel="shortcut icon"]').attr("href", appInfo.artworkUrl512);
