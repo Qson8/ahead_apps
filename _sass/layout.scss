@@ -644,6 +644,13 @@ footer {
 	margin-right: 0px;
 }
 
+copyrightText {
+	grid-area: f;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
 .copyrightText {
 	color: $footer-text-color;
 	display: block;
